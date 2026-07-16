@@ -1,0 +1,68 @@
+# Ambientes Virtuais
+venv/
+env/
+.env
+.venv/
+__pycache__/
+.env
+models/
+# Banco de Dados
+db.sqlite3
+
+# Arquivos compilados do Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Arquivos de log e cache
+*.log
+.cache/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas de IDEs (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Arquivos estáticos e de mídia do Django (gerados no deploy)
+staticfiles/
+media/
+
+# Ignorar todos os vídeos gerados
+media/reports/videos/
+
+# Banco de Dados auxiliares
+db.sqlite3-journal
+*.sqlite3
+
+# Variáveis de ambiente e secrets
+.env.*
+local_settings.py
+
+# Testes e Coverage
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+.tox/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Logs da IA
+agent/ai_chat_logs/
+
+# Reports operacionais
+agent/reports/
+
+# Backups e exports locais
+*.backup*
+*.bak
+banco_completo_prod.json
+banco_completo_prod_sem_internos.json
+surfcast_previsoes_prod.json models/

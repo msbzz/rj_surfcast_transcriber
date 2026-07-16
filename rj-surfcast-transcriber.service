@@ -1,0 +1,14 @@
+[Unit]
+Description=RJ SurfCast - Serviço de Transcrição
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/rj_surfcast_transcriber
+ExecStart=/opt/rj_surfcast_transcriber/scripts/start.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
