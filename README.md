@@ -58,7 +58,6 @@ http://127.0.0.1:9001/health
 ```bash
 cd /opt
 git clone <repositorio>
-mv rj_surfcast_transcriber /opt/rj_surfcast_transcriber
 cd /opt/rj_surfcast_transcriber
 
 python3 -m venv .venv
